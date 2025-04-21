@@ -8,12 +8,13 @@ const app = express();
 
 app.use(
 	cors({
-		origin: [
-			'http://localhost:5000/',
-			'http://localhost:3000',
-			'https://neo-finance-app-production.up.railway.app/',
-			'https://neo-finance-app.vercel.app/',
-		],
+		// origin: [
+		// 	'http://localhost:5000/',
+		// 	'http://localhost:3000',
+		// 	'https://neo-finance-app-production.up.railway.app/',
+		// 	'https://neo-finance-app.vercel.app/',
+		// ],
+		origin : "*",
 		methods: ['GET', 'PUT', 'POST', 'DELETE'],
 		credentials: true,
 		allowedHeaders: ['Content-Type', 'Authorization'],
