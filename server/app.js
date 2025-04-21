@@ -11,7 +11,7 @@ app.use(
 		origin: [
 			'http://localhost:5000/',
 			'http://localhost:3000',
-			// 'https://batch11-mern-stack-1.onrender.com',
+			'https://neo-finance-app-production.up.railway.app/',
 			'https://neo-finance-app.vercel.app/',
 		],
 		methods: ['GET', 'PUT', 'POST', 'DELETE'],

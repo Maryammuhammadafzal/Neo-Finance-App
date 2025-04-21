@@ -1,0 +1,8 @@
+{
+  "rewrites" : [
+        {
+                "source" : "/(.*)",
+                "destination" : "https://neo-finance-app-production.up.railway.app/api/:path"
+        }
+  ]
+}
